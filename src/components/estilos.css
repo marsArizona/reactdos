@@ -1,0 +1,29 @@
+.contenedorlista{
+  background:gray;
+  width:100%;
+  max-width:1200px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, 300px);
+  justify-content: center;
+  grid-gap:10px;
+}
+.caja{
+  background:red;
+  padding:30px 10px;
+}
+
+.nombre{
+  background:purple;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  font-size:1.5em;
+  font-weight: bold;
+}
+.correo{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  background:yellow;
+}
